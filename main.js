@@ -241,17 +241,17 @@
 // document.write(restar(5, 1));
 
 
-function sumar (num1, num2 ){
-    let resultadoSuma = num1 + num2; 
+// function sumar (num1, num2 ){
+//     let resultadoSuma = num1 + num2; 
 
-    document.write(`El valor de la suma es: ${resultadoSuma}<br>`);
+//     document.write(`El valor de la suma es: ${resultadoSuma}<br>`);
 
-    return resultadoSuma;
-}
+//     return resultadoSuma;
+// }
 
 
-sumar(5,5);
-sumar(10,10.5);
+// sumar(5,5);
+// sumar(10,10.5);
 
 
 
@@ -291,6 +291,8 @@ sumar(10,10.5);
 
 // // console.log(resultado2);
 
+
+
 // // EJEMPLOS CON MAP
 
 // let resultado = cursos.map ((el) => el.nombre); 
@@ -315,9 +317,9 @@ sumar(10,10.5);
 
 
 // let productos = [
-//     { nombre: "Mesa", precio: 2500 },
-//     { nombre: "silla", precio: 5500 },
-//     { nombre: "cafetera Atma", precio: 15000 }
+//     { nombre: "Agua sin gas", precio: 2500 },
+//     { nombre: "Sprite", precio: 3500 },
+//     { nombre: "Coca Cola", precio: 3700 }
 // ]
 
 
@@ -413,31 +415,30 @@ sumar(10,10.5);
 
 // DOM - CAPTURAR ELEMENTO BYCLASSNAME
 
-// let paises = document.getElementsByClassName("paises");
+// let paises = document.getElementsByClassName("bebidasAlcoholicas1");
 
-// // console.log(paises[1].innerHTML);
+// // console.log(bebidasAlcoholicas1[1].innerHTML);
 
-// for (let i of paises){
+// for (let i of bebidasAlcoholicas1){
 //     console.log(i.innerHTML)
 
 // }
 
-// INNER TEXT EJEMPLO DE MODIFICACION DE TEXTO EN JS
+//INNER TEXT EJEMPLO DE MODIFICACION DE TEXTO EN JS
 
-// let div = document.getElementById("comentario");
+let div = document.getElementById("comentario");
 
-// console.log(div.innerText);
+console.log(div.innerText);
 
-// div.innerText = "Hola que tal"
+div.innerText = "Bebidas Alcoholicas";
 
-// console.log(div.innerText);
+console.log(div.innerText);
 
-// div.innerText = "Cambiamos el saludo";
+div.innerText = "Bebidas sin alcohol";
+console.log(div.innerText);
 
-// console.log(div.innerText);
 
-
-// console.log(div.innerHTML);
+console.log(div.innerHTML);
 
 // EJEMPLO AGREGAR ETIQUETAS DE HTML DESDE EL JS CON innetHTML
 
@@ -484,53 +485,53 @@ sumar(10,10.5);
 
 
 
-// EVENTOS 
+//EVENTOS 
 
-// let botonMenos = document.querySelector("#botonMenos-eventlistener");
+let botonMenos = document.querySelector("#botonMenos-eventlistener");
 
-// function boton(){
-//     botonMenos.style.cssText =
-//     "background-color: blue;";
+function boton(){
+    botonMenos.style.cssText =
+    "background-color: blue;";
 
-//     alert ("Hola");
-// }
+    alert ("Hola");
+}
 
-// botonMenos.addEventListener("click", boton);
+botonMenos.addEventListener("click", boton);
 
-// let botonMas = document.querySelector("#botonMas-eventlistener");
+let botonMas = document.querySelector("#botonMas-eventlistener");
 
-// function boton2(){
-//     botonMas.style.cssText =
-//     "background-color: red;";
+function boton2(){
+    botonMas.style.cssText =
+    "background-color: red;";
 
-//     alert ("Gracias por elegirnos");
-// }
+    alert ("Gracias por elegirnos");
+}
 
-// botonMas.addEventListener("click", boton2);
+botonMas.addEventListener("click", boton2);
 
 
 
 
 // SET Y GET ITEMS CON STORAGE
 
-// let nombreDeUsuario = "francisco";
-// let contraseña = "vazquez";
+let nombreDeUsuario = "francisco";
+let contraseña = "vazquez";
 
 
-// localStorage.setItem("SaludoCliente", `Buenas tardes ${nombreDeUsuario}`);
+localStorage.setItem("SaludoCliente", `Buenas tardes ${nombreDeUsuario}`);
 
 
-// let mensajeDeSaludo = localStorage.getItem("SaludoCliente");
+let mensajeDeSaludo = localStorage.getItem("SaludoCliente");
 
 
 
-// if (nombreDeUsuario == "francisco" && contraseña == "vazquez"){
-//     alert(mensajeDeSaludo);
-// }
+if (nombreDeUsuario == "francisco" && contraseña == "vazquez"){
+    alert(mensajeDeSaludo);
+}
 
-// else {
-//     alert("nombre de usuario incorrecto")
-// };
+else {
+    alert("nombre de usuario incorrecto")
+};
 
 
 

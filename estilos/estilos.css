@@ -1,25 +1,26 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    margin-left: 2px;
 
 }
 
 
 
-.input1 {
+ .input1 {
 
-    background-color: lightblue;
-    width: 35px;
+    
+    width: 70px;
     height: 19px;
-    margin-left: 8px;
+    /* margin-left: 8px; */
     border-radius: 5px;
-}
+} 
 
 
-.label {
-    background-color: red;
-}
+
+
+
 
 .botones {
     margin-left: 5px;
@@ -72,4 +73,40 @@ box-shadow: 25px 15px 5px;
 .input2{
     width: 25px;
     
-} */
+}
+
+.botonEnviar{
+    background-color: lightgrey;
+    border-radius: 3px;
+}
+
+.botonMenos{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: aqua;
+
+}
+
+.botonMas{
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        border-color:red;
+}
+
+
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+
+.usuario{
+    margin-right: 25px;
+}
